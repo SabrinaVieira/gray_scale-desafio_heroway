@@ -5,39 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/index.css">
+    <script src="./javascript/index.js"></script>
     <title>Gray Scale Challenge Heroway</title>
 </head>
 <body>
     <header class="cabeca">
-        <div class="titulo-header">Start Bootstrap</div>
-        <nav class="nav">
-            <a href="#banner2">About</a>
-            <a href="#card-information">Projects</a>
-            <a href="#subscribe">Contact</a>
-        </nav>
+        <div id="nav-cab" class="cabeca-nav">
+            <div class="titulo-header" id="menu">Start Bootstrap</div>
+            <nav class="nav">
+                <a href="#banner2">About</a>
+                <a href="#card-information">Projects</a>
+                <a href="#subscribe">Contact</a>
+            </nav>
+        </div>
+
+        <section class="banner center-items-col">
+            <h1>GrayScale</h1>
+            <div class="texto-banner">
+                <span>A free responsive, one page (NO) Bootstrap theme created by Start Bootstrap</span>
+            </div>
+            <button class="btn-bunner">Get Started</button>
+        </section>
     </header>
     
-    <section class="banner">
-        <h1>GrayScale</h1>
-        <div class="texto-banner">
-            <span>A free responsive, one page (NO) Bootstrap theme created by Start Bootstrap</span>
-        </div>
-        <button class="btn-bunner">Get Started</button>
-    </section>
 
-    <section class="banner2">
-        <h2>Build with Bootstrap 4</h2>
-        <div class="testo-banner2">
+    <section class="banner2 center-items-col">
+        <div class="banner2-container topcenter-items-col">
+            <h2>Build with Bootstrap 4</h2>
+        <div class="texto-banner2">
             <span>
                 Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on the <b>the preview page</b>. The theme is oen source, and you can use it for any purpose, personal or commercial.
             </span>
         </div>
+        </div>
     </section>
         
-    <section class="card-information">
+    <section class="card-information center-items-col">
         <div class="card-foto-esquerda">
             <div class="card-foto">
-                <img src="" alt="">
+                <img src="../assents/bg-masthead.jpg" alt="neblina">
             </div>
             <div class="card-foto-texto">
                 <h3>Shoreline</h3>
@@ -68,7 +74,7 @@
         </div>
     </section>
 
-    <section class="subscribe">
+    <section class="subscribe center-items-col">
         <div class="subscribe-icone">
             <i></i>
         </div>
