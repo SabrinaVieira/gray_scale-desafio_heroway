@@ -1,0 +1,30 @@
+.subscribe {
+    background-image: url('../assents/demo-image-02.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: #898989;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.campo-email
+
+.subscribe .card-sub {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-interior {
+    width: 100%;
+    max-width: 10rem;
+    border: solid 1px white;
+    margin: 1%;
+    padding: 2rem 5%;
+}

@@ -18,23 +18,70 @@
   }*/
 
   .card-information {
-    margin: 5rem 0 5rem 0;
+    background-color: #f8f9fa;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding: 5rem 10%;
   }
-  .card-foto-esquerda {
-    border: solid 1px;
-    padding: 10rem;
-    width: 60rem;
+
+  .card {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 3rem;
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
 
-  .card-foto img{
-    max-width: 50%;
+  .card-information .card img{
+    width: 62%;
+    display: block;
+  }
+
+  .card-information .card-texto {
+    width: 100%;
+    border-left: solid .55rem #64a19d;
+    padding-left: 1.2rem;
+  }
+
+
+
+  .card-information .card-esc {
+    width: 100%;
+    background-color: #212529;
+    padding: 0;
+    color: #898989;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .card-information .card-esc img{
+    width: 50%;
+    display: block;
+  }
+
+  .card-information .card-esc .frame-card-texto {
+    width: 100%;
+    padding: 5%;
+    border-bottom: solid .55rem #64a19d;
+    
+    justify-content: flex-start;
+    
+  }
+
+  .dir {
+    line-height: 0.5rem;
+    padding-left: 2rem;
+  }
+
+  .esq {
+    line-height: 0.75rem;
+    justify-content: flex-end;
   }
