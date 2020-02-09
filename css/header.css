@@ -1,13 +1,15 @@
+
 .cabeca {
     width: 100%;
     height: 35rem;
 
-    background-image: url('../assents/bg-masthead.jpg');
+
+    background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 75%,#161616 100%),url('../assents/bg-masthead.jpg');
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    opacity: 0.85;
-    color: #898989;
+    color: #d4d1d1;
 }
 
 .cabeca-nav {
@@ -25,11 +27,12 @@
 
 .fundoBranco {
     background-color: #FFF;
+    color: #898989;
 }
 
 .cabeca .nav a {
     padding: 2em;
-    color: #898989;
+    color: #d4d1d1;
 }
 
 .banner {
@@ -53,13 +56,25 @@
     font-family: 'Varela Round', Arial, sans-serif;
     text-transform: uppercase;
     
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(#eee, #4e4e4e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: #898989;
+    
 }
 
 .texto-banner {
-    line-height: 2;
+    padding: 2rem;
 }
 
+.banner .btn-bunner {
+    font-size: .8rem;
+    margin: 0;
+    padding: .7rem 2rem .7rem 2rem;
+    background-color: #64A19D;
+    color: #FFF;
+    text-transform: uppercase;
+    border: none;
+    border-radius: .3rem;
+    max-width: 10rem;
+
+}

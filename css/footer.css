@@ -1,35 +1,32 @@
 .footer {
     width: 100%;
-    padding-top: 5rem;
+    padding: 5rem 0 2rem 0;
     background-color: #0e0e0e;
     color: #898989;
-
+    font-family: 'Varela Round', Arial, sans-serif;
+    font-weight: 300;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    
 }
 
-
-.footer {
-    width: 100%;
-
+.footer .coluna-footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .card-interior {
     background-color: #fff;
     width: 100%;
-    max-width: 15rem;
-    height: 5rem;
+    max-width: 18rem;
     
     
     margin: .5rem;
-    padding: 2rem 5%;
-    border-radius: .5rem;
-    
+    border-radius: .3rem;
+    border-bottom: 0.25em solid #66a8a4;
 }
 
 .maisum {
@@ -37,5 +34,41 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    padding: 2rem 5%;
+}
+.maisum h4 {
+    text-transform: uppercase;
+    font-size: .8rem;
 }
 
+.fa-map-marked-alt, .fa-envelope, .fa-mobile-alt {
+    color: #64A19D;
+    font-size: 1.2rem;
+    margin-bottom: .5REM;
+}
+
+.maisum .fita {
+    margin: .8rem 0;
+    height: .25rem;
+    width: 2rem;
+    background-color: #66a8a4;
+}
+
+.maisum span {
+    font-size: .7rem ;
+}
+.ble {
+    color: #64A19D;;
+}
+
+.redes-sociais {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.fa-twitter, .fa-facebook, .fa-github {
+    color: #898989;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
