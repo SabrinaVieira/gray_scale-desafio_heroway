@@ -1,0 +1,41 @@
+.footer {
+    width: 100%;
+    padding-top: 5rem;
+    background-color: #0e0e0e;
+    color: #898989;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-interior {
+    background-color: #fff;
+    width: 100%;
+    max-width: 15rem;
+    height: 5rem;
+    
+    
+    margin: .5rem;
+    padding: 2rem 5%;
+    border-radius: .5rem;
+    
+}
+
+.maisum {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
